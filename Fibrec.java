@@ -7,7 +7,7 @@ class Fibrec
               if(n==1)
               return 0;
               if(n==2)
-              return 0;
+              return 1;
               
               return (fib(n-1)+fib(n-2));
       }
@@ -18,7 +18,7 @@ class Fibrec
               Scanner sc=new Scanner(System.in);
               System.out.println("Enter the number of terms: ");
               a=sc.nextInt();
-              for(int i=1;i<=n;i++)
+              for(int i=1;i<=a;i++)
               System.out.println(fib(i)+" ");
       }
 }

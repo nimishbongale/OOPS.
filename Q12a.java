@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-public class Q12{
+public class Q12a{
 
     public static void main(String[] args) {
            Scanner sc = new Scanner(System.in);

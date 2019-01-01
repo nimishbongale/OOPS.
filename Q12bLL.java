@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Q12aLL
+class Q12bLL
 
 {
 

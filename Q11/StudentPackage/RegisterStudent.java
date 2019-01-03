@@ -30,7 +30,7 @@ public class RegisterStudent implements Student
               CGPA=(double)SGPA/4;
               totcredits+=credits[i];
               }
-            if(totcredits>totregcredits)
+            if(totcredits!=totregcredits)
             {
                 System.out.println("Invalid entry!");
                 System.exit(0);

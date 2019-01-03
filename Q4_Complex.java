@@ -19,7 +19,7 @@ class Complex
 		r1=c1=r2=c2=0;
 	}
 	
-	Complex(int a,int b,int c,int d)
+	Complex(int a,int b,int c,int d)//paramterised constructor
 	{
 		this.r1=a;
 		this.c1=b;
@@ -48,7 +48,7 @@ class Complex
 		System.out.println("Product="+e+"+("+f+")i");
 	}
 	
-	public static void main(String args[])
+	public static void main(String args[])//driver function 
 	{
 		int ch;
 		Scanner sc=new Scanner(System.in);
@@ -59,7 +59,7 @@ class Complex
 		r2=sc.nextInt();
 		c2=sc.nextInt();
 		Complex obj=new Complex(r1,c1,r2,c2);
-		System.out.println("\n1.Add\n2.Subtract\n3.Multiply\nEnter anything else to exit\n");
+		System.out.println("\n1.Add\n2.Subtract\n3.Multiply\nEnter anything else to exit\n");//printing menu
 		ch=sc.nextInt();
 		
 		switch(ch)

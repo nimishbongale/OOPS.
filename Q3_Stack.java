@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which implements the basic features of a stack 
+
+*/
 import java.util.Scanner;
 
 class Stack

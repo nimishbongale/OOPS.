@@ -1,9 +1,5 @@
 package ResultPackage;
-import StudentPackage.*;
-class InvalidSGPA extends Exception
+public class InvalidSGPA extends Exception 
 {
-    void disp()
-    {
-        System.out.println("Invalid SGPA!");
-    }
+    void disp(){System.out.println("SGPA can't be above 10!");}
 }

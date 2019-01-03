@@ -1,3 +1,10 @@
+/*
+Author @nimishbongale
+Version 1.0.4
+Date DD/MM/YYYY
+A program which prints the fibonacci series using recursion
+*/
+
 import java.util.Scanner;
 
 class Fibrec

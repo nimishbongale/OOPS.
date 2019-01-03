@@ -15,7 +15,7 @@ public class Display
                 System.out.println("*****SEM "+(i+1)+"*****");
                 obj[i].getall();
                 System.out.println("Results for SEM "+(i+1));
-                for(int j=0;j<2;j++)
+                for(int j=0;j<obj[i].n;j++)
                 {
                     m=obj[i].marks[j];
                     if(m>90)

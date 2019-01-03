@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which uses the collection framework of java 
+
+*/
 import java.util.*;
 
 class Q12aAL

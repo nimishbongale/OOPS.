@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which accepts bank details,calculates balance amt and prints it out
+
+*/
 import java.util.Scanner;
 
 class account

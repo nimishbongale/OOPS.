@@ -1,10 +1,21 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which uses the collection framework of java 
+
+*/
 import java.util.*;
 
 class Q12bLL
 
 {
 
-	public static void main(String args[])
+	public static void main(String args[])//driver function 
 
 	{
 
@@ -14,7 +25,7 @@ class Q12bLL
 
 		String s;
 
-		LinkedList<String> ll = new LinkedList<String>();
+		LinkedList<String> ll = new LinkedList<String>();//initializing the linkedlist
 
 		while(true){
 

@@ -1,8 +1,19 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which prints prime no.s using recursion
+
+*/
 import java.util.Scanner;
 class primerec
 {
     static int i;
-    static int calc(int n)
+    static int calc(int n)//recursive function calc
     {
         if(n==1)return -1;
         if(n==2) return 1;
@@ -11,7 +22,7 @@ class primerec
         return calc(n-1);
     }
     
-     public static void main(String args[])
+     public static void main(String args[])//driver function 
     {
         int b,j;
         Scanner sc=new Scanner(System.in);

@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 class Fibrec
 {
-      static int fib(int n)
+      static int fib(int n)//recursive function to calculate fibonacci series
       {
               if(n==1)
               return 0;
@@ -19,7 +19,7 @@ class Fibrec
               return (fib(n-1)+fib(n-2));
       }
       
-      public static void main(String args[])
+      public static void main(String args[])//driver function 
       {
               int a;
               Scanner sc=new Scanner(System.in);

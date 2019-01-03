@@ -1,7 +1,13 @@
+/*
+Author @nimishbongale
+Version 1.0.1
+Date DD/MM/YYYY
+A program which finds prime no.s using iteration 
+*/
 import java.util.Scanner;
 class prime
 {
-	public static void main(String args[])
+	public static void main(String args[])//driver function 
 	{
 		int n,flag=0;
 		Scanner sc=new Scanner(System.in);

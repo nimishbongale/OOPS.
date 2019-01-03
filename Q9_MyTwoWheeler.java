@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which accepts the yom of a two wheeler and prints it out, using the concept of inheritance and super keyword 
+
+*/
 import java.util.Scanner;
 
 abstract class Vehicle

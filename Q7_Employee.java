@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which accepts personal details of employees,calculates asked parameters and prints them out 
+
+*/
 import java.util.Scanner;
 class Personal
 {
@@ -5,7 +16,7 @@ class Personal
     public static String name,edu;
     public static int age,yoe,nol;
     private static double basic,da,hra,lamt;
-    Personal(String name,String edu,int age,int yoe,double basic,double da,double hra,int nol,double lamt)
+    Personal(String name,String edu,int age,int yoe,double basic,double da,double hra,int nol,double lamt)//parameterised constructor
     {
 
         this.name=name;
@@ -49,7 +60,6 @@ class Personal
 
         if((yoe>7)&&((hra+da+basic)<600000))
         return true;
-
         return false;
     }
 
@@ -68,7 +78,7 @@ public class Employee
 
 {
 
-    public static void main(String args[])
+    public static void main(String args[])//driver function 
 
     {
         int n,i=1;

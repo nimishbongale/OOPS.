@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.4
+
+Date DD/MM/YYYY
+
+A program which performs operations on complex no.s
+
+*/
 import java.util.Scanner;
 
 class Complex

@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.2
+
+Date DD/MM/YYYY
+
+A program which calculates area of the circle, segment and sector.
+
+*/
 import java.util.Scanner;
 class call
 {

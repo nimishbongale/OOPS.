@@ -1,3 +1,14 @@
+/*
+
+Author @nimishbongale
+
+Version 1.0.1
+
+Date DD/MM/YYYY
+
+A program which works with strings 
+
+*/
 import java.util.*;
 
 class Smanip
